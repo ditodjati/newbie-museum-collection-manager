@@ -1,6 +1,6 @@
 # Museum Collection Management System
 
-The **Museum Collection Management System** is a specialized, terminal-based Command Line Interface (CLI) application developed using Python. Designed as a comprehensive and efficient inventory solution for museum administrators, this application allows users to digitally log, track, organize, and seamlessly manage valuable historical assets—ranging from prehistoric fossils and ancient artifacts to medieval weaponry and renaissance masterpieces. 
+The **Museum Collection Management System** is a specialized, terminal-based Command Line Interface (CLI) application developed using Python. Designed as a comprehensive and efficient inventory solution for museum administrators, this application allows users to digitally log, track, organize, and seamlessly manage valuable historical assets, ranging from prehistoric fossils and ancient artifacts to medieval weaponry and renaissance masterpieces. 
 
 At its core, this project represents a robust implementation of **CRUD (Create, Read, Update, Delete)** operations. Built upon foundational Python data structures and enhanced with advanced logical validation frameworks, the system acts as a reliable data management platform that ensures data integrity while transforming raw software execution into a clean, structured, and user-friendly console experience.
 
@@ -8,7 +8,7 @@ At its core, this project represents a robust implementation of **CRUD (Create, 
 
 ## Project Overview
 
-In a real-world museum ecosystem, keeping track of precious historical assets, their structural conditions, and their current display or storage locations presents a critical operational challenge. This application directly addresses those administrative needs by serving as the primary digital registry for the **Shangri-La Museum**—the specific foundational setting established within the source code. It allows museum personnel to seamlessly organize, track, update, and manage a diverse range of invaluable historical items, from prehistoric fossils and ancient weapons to priceless paintings and cultural artifacts.
+In a real-world museum ecosystem, keeping track of precious historical assets, their structural conditions, and their current display or storage locations presents a critical operational challenge. This application directly addresses those administrative needs by serving as the primary digital registry for the **Shangri-La Museum**, which is the specific foundational setting established within the source code. It allows museum personnel to seamlessly organize, track, update, and manage a diverse range of invaluable historical items, from prehistoric fossils and ancient weapons to priceless paintings and cultural artifacts.
 
 Built entirely on top of robust Data Manipulation logic, this management tool provides a terminal-based Command Line Interface (CLI) database environment. Operating purely in-memory via Python's native data structures, the program implements comprehensive **CRUD (Create, Read, Update, Delete)** functionalities. It utilizes structured dictionaries nested within a centralized list array, which acts as the single "Source of Truth" to guarantee total data consistency and high-speed manipulation across all sub-menus during runtime. 
 
@@ -18,7 +18,7 @@ To ensure an exceptional administrative user experience, the application incorpo
 
 ## Technical Program Flow & Execution Logic
 
-The execution architecture of this program relies on a modular, routing-driven state machine built entirely upon Python's native procedural capabilities. Rather than executing a monolithic block of conditional code, the program decouples its user-interface layers from data mutation logic, utilizing function references mapped to validated user inputs to cleanly navigate between sub-menus.
+The execution architecture of this program relies on a modular, routing-driven state machine built entirely upon Python's native procedural capabilities[cite: 3]. Rather than executing a monolithic block of conditional code, the program decouples its user-interface layers from data mutation logic, utilizing function references mapped to validated user inputs to cleanly navigate between sub-menus.
 
 Below is the complete algorithmic workflow diagram, followed by an in-depth technical breakdown of how each software branch processes data:
 
@@ -111,7 +111,7 @@ To run this application locally, you must have a Python environment (Python 3.x 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/ditodjati/museum-collection-management-system.git](https://github.com/ditodjati/museum-collection-management-system.git)  
+   git clone [https://github.com/ditodjati/museum-collection-management-system.git](https://github.com/ditodjati/museum-collection-management-system.git)
 
 2. **Navigate to the project directory:**
    ```bash
